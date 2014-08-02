@@ -55,12 +55,12 @@ public class FormHelper extends HelperBase {
 	}
 
 	public void changeTypeOfElementsShowingOnLeftAndOnRight() {
-		// Second "вопросы слева, ответы справа" Type of output elements in profile
+		// Type of elements showing "questions on the left,answers on the right"
 		driver.findElement(By.xpath("(//input[@name='form.sideskin'])[2]")).click();		
 	}
 
 	public void changeTypeOfElementsShowingOnCenter() {
-		// Third "вопросы и ответы по центру" Type of output elements in profile
+		// Type of elements showing "questions and answers on the center"
 		driver.findElement(By.xpath("(//input[@name='form.sideskin'])[3]")).click();	
 	}
 
